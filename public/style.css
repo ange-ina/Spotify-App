@@ -1,0 +1,21 @@
+/* article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+} */
+
+img {
+    width: 100%;
+}
+img:first-of-type,img:last-of-type{
+display:none;
+   
+}
+.search-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+/* .search-container div img:not(:first-of-type){
+    display: none;
+} */

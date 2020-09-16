@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <article>
+
+ 
+        <%artistsAlbum.forEach(element=>{%>
+            <div>
+             <%element.images.forEach(element=>{%>
+                <img src="<%=element.url%>" alt="">
+           
+             <%})%>
+              
+                <h2><%=element.name%></h2>
+                <h4><a href="/tracks/<%=element.id%>">View Tracks</a></h4>
+               
+            </div>
+         <%})%>
+        </article>
+</body>
+</html>
