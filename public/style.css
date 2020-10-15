@@ -1,21 +1,84 @@
-/* article{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
-} */
-
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
 img {
     width: 100%;
+   
+    
 }
-img:first-of-type,img:last-of-type{
+.bild{
+    width: 25%;
+}
+/* .search-container img:first-of-type,img:last-of-type{
 display:none;
    
-}
+} */
+
 .search-container{
+    background-color:black;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 5px;
 }
-/* .search-container div img:not(:first-of-type){
+.search-container div img:not(:first-of-type){
     display: none;
-} */
+}
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    
+}
+article div img:not(:first-of-type){
+    display: none;
+}
+h2{
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 5px 10px;
+}
+div{
+    text-align: center;
+    object-fit: cover;
+}
+section{
+    height: 100vh;
+    background: url(/musik.jpeg) center/cover, no-repeat;
+}
+
+form{
+  
+    text-align: center;
+   
+}
+input{
+    margin-top: 25%;
+    padding: 10px 20px;
+}
+.button{
+    background: black;
+    color: white;
+    border:1px solid red;
+    padding: 10px 20px;
+   
+}
+h4{
+    margin-top: 10px;
+}
+.gallery{
+    
+    background-color: red;
+ 
+  
+    
+}
